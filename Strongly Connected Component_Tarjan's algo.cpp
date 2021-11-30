@@ -41,7 +41,7 @@ void dfs(int node)
             if(on_stack[son]) lo[node]=min(lo[node],lo[son]);
         }
     }
-    if(in[node]==lo[node])
+    if(in[node]==lo[node])///From Where the SCC started.
     {
         cout<<"SCC num "<<++cnt<<":"<<endl;
         while(1)
@@ -58,6 +58,12 @@ void dfs(int node)
 }
 int32_t main()
 {
+    /**
+    SCC means the largest subset of nodes where we can go from any node to other nodes.
+    SCC may contain multiple loops.
+
+    */
+    ///Complexity : O(V+E).....
      ios_base::sync_with_stdio(false);
      cin.tie(NULL);
      cin>>n>>m;
