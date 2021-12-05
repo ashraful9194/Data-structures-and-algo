@@ -43,6 +43,12 @@ int32_t main()
 {
      ios_base::sync_with_stdio(false);
      cin.tie(NULL);
+     /**
+        Inserting a word in a dictionary in O(|word|)...
+        Checking a word from a dictionadry in O(|word|)..
+        Memory =O(sum of characters of all words)........
+        Trie complexity = O(W*L)...O(word*Length)........
+     */
      int n;
      cin>>n;
      for(int i=0; i<n; i++)
@@ -61,4 +67,3 @@ int32_t main()
          else cout<<"Not Found"<<endl;
      }
 }
-
