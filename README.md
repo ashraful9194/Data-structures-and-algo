@@ -13,7 +13,7 @@ A personal collection of codes for competitive programming challenges and data s
 
 ## 📖 About This Cookbook
 
-This repository serves as my personal codebook, where I collect, refine, and document solutions, templates, and implementations for various algorithmic problems. The codes within are inspired by challenges from platforms like **Codeforces, LeetCode, AtCoder**, and others that I encountered during my competitive programming journey.
+This repository serves as my personal cookbook, where I collect, refine, and document solutions, templates, and implementations for various algorithmic problems. The codes within are inspired by challenges from platforms like **Codeforces, LeetCode, AtCoder**, and others that I encountered during my competitive programming journey.
 
 The main goal is to build a reliable, well-organized, and reusable set of tools that can be quickly adapted for programming contests and technical interviews.
 
